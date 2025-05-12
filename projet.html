@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LyKos Dev | Projets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Vidéo d'arrière-plan -->
+    <video autoplay muted loop id="video-bg">
+        <source src="/100823-video-2160.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas les vidéos HTML5.
+    </video>
+
+    <div class="content-overlay">
+        <header>
+            <div class="container">
+                <nav>
+                    <a href="index.html" class="logo">LyKos <span>Dev</span></a>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#about">À propos</a></li>
+                        <li><a href="#" class="active">Projets</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="projects-page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Mes Projets</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Projet FiveM 1 -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <img src="https://via.placeholder.com/600x400/3a0ca3/ffffff?text=Système+Arme" alt="Système d'armes">
+                                </div>
+                                <div class="project-info">
+                                    <h3>Système d'Armes Avancé</h3>
+                                    <p>Script complet avec craft, personnalisation, balles spéciales et système de compétences pour les armes à feu.</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">FiveM</span>
+                                        <span class="project-tag">Lua</span>
+                                        <span class="project-tag">QBCore</span>
+                                        <span class="project-tag">UI Custom</span>
+                                    </div>
+                                    <button class="btn flip-btn">Détails</button>
+                                </div>
+                            </div>
+                            <div class="project-card-back">
+                                <div class="project-details">
+                                    <h3>Détails du Projet</h3>
+                                    <h4>Fonctionnalités Principales:</h4>
+                                    <ul>
+                                        <li>Système de craft d'armes personnalisé</li>
+                                        <li>Progression des compétences par arme</li>
+                                        <li>Munitions spéciales avec effets uniques</li>
+                                        <li>Interface utilisateur moderne et intuitive</li>
+                                    </ul>
+                                    <h4>Technologies Utilisées:</h4>
+                                    <div class="technologies">
+                                        <span class="tech-tag">Lua</span>
+                                        <span class="tech-tag">QBCore</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                        <span class="tech-tag">HTML/CSS</span>
+                                    </div>
+                                    <button class="btn flip-btn">Retour</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Projet Web -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <img src="https://via.placeholder.com/600x400/7209b7/ffffff?text=Site+RP" alt="Site RP">
+                                </div>
+                                <div class="project-info">
+                                    <h3>Dashboard Serveur RP</h3>
+                                    <p>Interface admin complète avec statistiques, gestion des joueurs et système de sanctions intégré.</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">React</span>
+                                        <span class="project-tag">Node.js</span>
+                                        <span class="project-tag">FiveM API</span>
+                                        <span class="project-tag">WebSocket</span>
+                                    </div>
+                                    <button class="btn flip-btn">Détails</button>
+                                </div>
+                            </div>
+                            <div class="project-card-back">
+                                <div class="project-details">
+                                    <h3>Détails du Projet</h3>
+                                    <h4>Fonctionnalités Principales:</h4>
+                                    <ul>
+                                        <li>Interface admin complète</li>
+                                        <li>Gestion des joueurs</li>
+                                        <li>Système de sanctions</li>
+                                        <li>Statistiques en temps réel</li>
+                                    </ul>
+                                    <h4>Technologies Utilisées:</h4>
+                                    <div class="technologies">
+                                        <span class="tech-tag">React</span>
+                                        <span class="tech-tag">Node.js</span>
+                                        <span class="tech-tag">FiveM API</span>
+                                        <span class="tech-tag">WebSocket</span>
+                                    </div>
+                                    <button class="btn flip-btn">Retour</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet FiveM 3 -->
+                    <div class="project-card">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <img src="https://via.placeholder.com/600x400/f72585/ffffff?text=Heist+System" alt="Système de braquage">
+                                </div>
+                                <div class="project-info">
+                                    <h3>Système de Braquages</h3>
+                                    <p>Script de braquages avec plusieurs scénarios, aléatoire, cooldown et difficulté progressive.</p>
+                                    <div class="project-tags">
+                                        <span class="project-tag">FiveM</span>
+                                        <span class="project-tag">Lua</span>
+                                        <span class="project-tag">ESX</span>
+                                        <span class="project-tag">PolyZone</span>
+                                    </div>
+                                    <button class="btn flip-btn">Détails</button>
+                                </div>
+                            </div>
+                            <div class="project-card-back">
+                                <div class="project-details">
+                                    <h3>Détails du Projet</h3>
+                                    <h4>Fonctionnalités Principales:</h4>
+                                    <ul>
+                                        <li>Scénarios de braquage dynamiques</li>
+                                        <li>Système de difficulté progressive</li>
+                                        <li>Gestion des cooldowns</li>
+                                        <li>Intégration avec PolyZone</li>
+                                    </ul>
+                                    <h4>Technologies Utilisées:</h4>
+                                    <div class="technologies">
+                                        <span class="tech-tag">Lua</span>
+                                        <span class="tech-tag">ESX</span>
+                                        <span class="tech-tag">PolyZone</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                    </div>
+                                    <button class="btn flip-btn">Retour</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-projet-container">
+                <a href="index.html#projects" class="btn-projet">Retour aux projets principaux</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="social-links">
+                    <a href="https://github.com/Ilyesvlg-78"><i class="fab fa-github"></i></a>
+                    <a href="https://discord.gg/xBy2yD37tk"><i class="fab fa-discord"></i></a>
+                    <a href="https://x.com/Ilyesvlg78"><i class="fab fa-twitter"></i></a>
+                    <a href="https://youtube.com/@lykos_78?si=rh-T9tZbSQzJMno1"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>&copy; 2025 Tous droits réservés. | LyKos_78</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
