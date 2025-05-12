@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const subject = document.getElementById('subject').value;
         const message = document.getElementById('message').value;
 
-        const webhookURL = 'https://discord.com/api/webhooks/1365775274565963868/aKWllqmSME7CclzZDZX4pMtFT3LOsLQGRO3vtoevPqXBkRxtYVJw15ZSlgSDYP9X8QQ8';
+        const webhookURL = 'https://discord.com/api/webhooks/1371560101852479620/PHJNww46jihxeID_755hUm04DnQZq5PmgxgZjWOML5lh-4DPTTT_Fyq9r3fBxL6KSA0k';
 
         const discordMessage = {
             content: '@everyone',
